@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace TechCollegeSystem.Interface;
 
-public interface ITeacher : ISubjectManagement, ISimiliarTraits
+public interface ITeacher : ISubjectManagement, ISimiliarTraits, ISalary
 {
-    public decimal MonthlySalary { get; set; }
-    public Dictionary<string, List<string>> TeamTeachingAssignments { get; set; }  // Key: Team, Value: List of subjects
+    public Dictionary<string, List<string>> TeamTeachingAssignments { get; set; }  
     
     public void AssignToTeam(string team, string subject);
     public void RemoveFromTeam(string team, string subject);

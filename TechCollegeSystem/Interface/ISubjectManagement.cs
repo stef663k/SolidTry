@@ -8,7 +8,7 @@ namespace TechCollegeSystem.Interface;
 public interface ISubjectManagement
 {
     public string Team { get; set; }
-    public List<string> EnrolledSubjects { get; }
+    public List<string> EnrolledSubjects { get; set; }
     public void EnrollInSubject(string subject);
     public void UnenrollFromSubject(string subject);
 }

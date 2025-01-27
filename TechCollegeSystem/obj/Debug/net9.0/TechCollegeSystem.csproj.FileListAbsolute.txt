@@ -12,3 +12,4 @@ C:\Users\Stefan\Desktop\H5\Sofwarearkitektur\TechCollegeSystem\obj\Debug\net9.0\
 C:\Users\Stefan\Desktop\H5\Sofwarearkitektur\TechCollegeSystem\obj\Debug\net9.0\TechCollegeSystem.pdb
 C:\Users\Stefan\Desktop\H5\Sofwarearkitektur\TechCollegeSystem\obj\Debug\net9.0\TechCollegeSystem.genruntimeconfig.cache
 C:\Users\Stefan\Desktop\H5\Sofwarearkitektur\TechCollegeSystem\obj\Debug\net9.0\ref\TechCollegeSystem.dll
+C:\Users\Stefan\Desktop\H5\Sofwarearkitektur\TechCollegeSystem\obj\Debug\net9.0\TechCollegeSystem.sourcelink.json

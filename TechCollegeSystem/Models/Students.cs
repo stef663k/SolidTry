@@ -8,10 +8,10 @@ namespace TechCollegeSystem.Models;
 
 public class Students : IStudent
 {
-    public string Name { get; set; }
-    public string Address { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Address { get; set; } = string.Empty;
     public PersonCategory Category { get; set; }
-    public string Team { get; set; }
+    public string Team { get; set; } = string.Empty;
     public Dictionary<string, int> SubjectGrades { get; set; } = new Dictionary<string, int>();
     public List<string> EnrolledSubjects { get; set; } = new List<string>();
 

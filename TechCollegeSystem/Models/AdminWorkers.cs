@@ -8,24 +8,30 @@ namespace TechCollegeSystem.Models;
 
 public class AdminWorkers : IAdminWorker
 {
-    public List<Students> ResponsibleForStudents { get; set; } = new List<Students>();
-    public decimal MonthlySalary { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Address { get; set; } = string.Empty;
     public PersonCategory Category { get; set; }
+    public decimal MonthlySalary { get; set; }
+    public List<Students> ResponsibleForStudents { get; set; } = new List<Students>();
 
-    public void AddStudents(Students students)
+    public void AddStudents(Students student)
     {
-        throw new NotImplementedException();
+        if (!ResponsibleForStudents.Contains(student))
+        {
+            ResponsibleForStudents.Add(student);
+        }
     }
 
-    public void RemoveStudents(Students students)
+    public void RemoveStudents(Students student)
     {
-        throw new NotImplementedException();
+        ResponsibleForStudents.Remove(student);
     }
 
-    public void TransferStudent(Students students)
+    public void TransferStudent(Students student)
     {
-        throw new NotImplementedException();
+        if (ResponsibleForStudents.Contains(student))
+        {
+            RemoveStudents(student);
+        }
     }
 }

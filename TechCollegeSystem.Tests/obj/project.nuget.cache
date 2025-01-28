@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wkMYumE+f2Y=",
+  "dgSpecHash": "okiB3/NMxNk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\H5\\Sofwarearkitektur\\TechCollegeSystem.Tests\\TechCollegeSystem.Tests.csproj",
+  "projectFilePath": "c:\\Users\\Stefan\\Desktop\\H5\\Sofwarearkitektur\\TechCollegeSystem.Tests\\TechCollegeSystem.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\Stefan\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
